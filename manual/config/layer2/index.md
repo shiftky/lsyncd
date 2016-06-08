@@ -72,8 +72,8 @@ Variables of the actions are given by the _event_ field. It has following fields
 |event.sourcePathname | see ^sourcePathname of [Layer 3][l3-all-vars] |
 |event.target | see ^target of [Layer 3][l3-all-vars] |
 |event.targetPath | see ^targetPath of [Layer 3][l3-all-vars] |
-|event.targetPathname | see ^targetPathname of [Layer 3][l3-all-vars] |
-[l3-all-vars]:../wiki/Lsyncd-2.1.x-‖-Layer-3-Config-‖-Simple-onAction#all-possible-variables
+|event.targetPathname | see ^targetPathname of [Layer 3][l3-all-vars] | [l3-all-vars]:../wiki/Lsyncd-2.1.x-‖-Layer-3-Config-‖-Simple-onAction#all-possible-variables |
+
 onMove actions have two events as parameter, the origin and the destination of the move.
 
 This example will tattle about all moves within the observed directory tree.
